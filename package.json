@@ -1,0 +1,24 @@
+{
+  "name": "hapi-auth-nes-test",
+  "description": "Example using hapi and nes with auth",
+  "version": "0.0.1",
+  "author": "Saul Maddox",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run prepare:client; sleep 1; node server",
+    "prepare:client": "browserify client/js/main.js > client/js/main.dist.js"
+  },
+  "dependencies": {
+    "axios": "0.7.0",
+    "bluebird": "3.0.5",
+    "boom": "3.0.0",
+    "browserify": "12.0.1",
+    "good": "6.4.0",
+    "good-console": "5.2.0",
+    "hapi": "11.1.0",
+    "hapi-auth-cookie": "3.1.0",
+    "inert": "3.2.0",
+    "joi": "7.0.0",
+    "nes": "1.2.0"
+  }
+}

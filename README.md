@@ -1,1 +1,1 @@
-# hapi-auth-nes-test
+Example using hapi and nes with auth
