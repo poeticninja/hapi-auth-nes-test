@@ -1,0 +1,1 @@
+# hapi-auth-nes-test
